@@ -5,12 +5,15 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text testID="welcome-text">Hello, React Native!</Text>
+      <Text>Nama : Gilbert Nandy Satria</Text>
+      <Text>NIM : D1041221078</Text>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
+    color: "f0f9ff",
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
